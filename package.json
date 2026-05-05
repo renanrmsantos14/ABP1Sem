@@ -1,0 +1,20 @@
+{
+  "name": "octopuscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server",
+    "start": "node src/server",
+    "dbinit": "node src/infra/run-sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  }
+}
